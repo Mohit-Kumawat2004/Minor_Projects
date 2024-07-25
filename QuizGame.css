@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+/* Add styles for progress bar */
+#progress-bar {
+  width: 100%;
+  background-color: #ddd;
+  border-radius: 10px;
+  margin: 20px 0;
+}
+
+#progress {
+  width: 0%;
+  height: 20px;
+  background-color: #5cb85c;
+  border-radius: 10px;
+  transition: width 0.3s;
+}
+
+/* Styles for navigation buttons */
+#navigation {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Styles for result summary */
+.summary {
+  text-align: center;
+  margin-top: 20px;
+}
+
+#circle {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.score {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background-color: #eee;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 10px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+#legend {
+  display: flex;
+  justify-content: center;
+}
+
+.legend-item {
+  display: flex;
+  align-items: center;
+  margin: 0 10px;
+}
+
+.legend-color {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+
+.legend-text {
+  font-size: 14px;
+}
